@@ -52,7 +52,7 @@ WHERE title LIKE '%ARMAGEDDON%'
 AND length > 100;
 SELECT COUNT(DISTINCT film_id)
 FROM film
-WHERE special_features LIKE 'Behind the Scenes';
+WHERE special_features LIKE '%Behind the Scenes%';
 
 
 
